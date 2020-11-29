@@ -1,0 +1,10 @@
+.components-book-card {
+  display: flex;
+  flex-direction: row;
+  &__image {
+    padding: 0 20px 0 0;
+  }
+  abbr {
+    border-bottom: dotted 1px #137CBD
+  }
+}

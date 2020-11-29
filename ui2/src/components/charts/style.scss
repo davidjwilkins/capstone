@@ -1,0 +1,9 @@
+.components-charts-pca {
+  &__filters {
+    display: flex;
+    flex-direction: row;
+    &-group {
+      padding: 20px;
+    }
+  }
+}

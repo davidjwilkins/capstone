@@ -1,0 +1,28 @@
+.components-book-list {
+  &__modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 25%);
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    > * {
+      flex-grow: 1;
+      max-width: calc(25% - 10px);
+      width: calc(25% - 10px);
+      margin-right: 10px;
+      margin-top: 10px;
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+    }
+  }
+  &__pageButtons {
+    position: relative;
+    top: 4px;
+    margin-left: 10px;
+  }
+}
